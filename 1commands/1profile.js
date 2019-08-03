@@ -56,7 +56,7 @@ module.exports.run = async (bot,message,args) => {
     }
     
         data =  await db.fetch(`MTC_${userID}`)
-        UserName = data.username
+        UserName = message.author.username
         Crystals = data.crystals
         Supplies = data.supplies
         Rating = data.rating

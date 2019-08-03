@@ -26,23 +26,27 @@ module.exports.run = async (bot,message,args) => {
         else { Suser.Help = new Date().getTime()}
 
 message.channel.send(`
- \`📋 BOT COMMANDS 📋\` 
+ \:clipboard: BOT COMMANDS :clipboard:\
 \`\`\`md\n
+#Tanki Online
+1  <$rating     - Tankionline rating>
 #Bot 
-1.  <$ping      - BOT connection to the server>
-2.  <$botstats  - BOT stats>
-3.  <$gamestats - BOT GAME stats>
+1  <$ping       - BOT connection to the server>
+2  <$invite     - BOT Invite Link>
+3  <$botstats   - BOT Stats>
+4  <$gamestats  - BOT GAME stats>
+2  <$joinserver - BOT Server Invite Link>
 #Game 
-1.  <$level     - Display's your level>
-2.  <$start     - Create your profile here>
-3.  <$open      - Open to win awesome paints!>
-4.  <$profile   - Check your profile>
-5   <$crystals  - Display's your crystals>
-6.  <$paints    - Display's your paints list>
-7.  <$paintwiki - Information on paints>
-8.  <$top       - Leaderboards>
-9.  <$buy       - Purchase containers>
-10. <$sell      - Sell paints to gain crystals>
+1  <$top        - Leaderboards>
+2  <$buy        - Purchase containers>
+3  <$sell       - Sell paints to gain crystals>
+4  <$open       - Open to win awesome paints!>
+5  <$level      - Display's your level>
+6  <$start      - Create your profile here>
+7  <$paints     - Display's your paints list>
+8  <$profile    - Check your profile>
+9  <$crystals   - Display's your crystals>
+10 <$paintwiki  - Information on paints>
 \`\`\`\`⫸ Requested by ${user_display} ⫷\`
 `)
 

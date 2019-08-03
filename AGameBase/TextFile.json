@@ -17,7 +17,7 @@
     },
     "QPaintWiki":
     {
-        "Qpage":"**Paint Menu**\n```CSS\n{Please: 'type an alphabet given below'}\n\n<[A]>    <[B]>    <[C]>    <[D]>    <[E]>\n<[F]>    <[G]>    <[H]>    <[I]>    <[J]>\n<[K]>    <[L]>    <[M]>    <[N]>    <[O]>\n<[P]>    <[Q]>    <[R]>    <[S]>    <[T]>\n<[U]>    <[V]>    <[W]>    <[X]>    <[Y]>\n                  <[Z]>\n\n#Type [exit] to close the menu```",
+        "Qpage":"**Paint Menu**\n```CSS\n{Please: 'type a letter given below'}\n\n<[A]>    <[B]>    <[C]>    <[D]>    <[E]>\n<[F]>    <[G]>    <[H]>    <[I]>    <[J]>\n<[K]>    <[L]>    <[M]>    <[N]>    <[O]>\n<[P]>    <[Q]>    <[R]>    <[S]>    <[T]>\n<[U]>    <[V]>    <[W]>    <[X]>    <[Y]>\n                  <[Z]>\n\n#Type [exit] to close the menu```",
         "InvalidEntry":":no_entry:  | **Invalid Entry**",
         "NoEntry":":hourglass: | **Times up , Exiting the Menu**",
         "exit":":negative_squared_cross_mark: | Exiting the Menu "

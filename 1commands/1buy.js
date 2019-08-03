@@ -73,10 +73,10 @@ module.exports.run = async (bot,message,args) => {
         message.channel.send(`**Wolves Container Buy Price = ${costW}\nLions Container Buy Price = ${costL}\nBears Container Buy Price = ${costB}**`)
     };
 
-    if(Option === 'prices')
-    {
-        return bot.Prices();
-    }
+    // if(Option === 'prices')
+    // {
+    //     return bot.Prices();
+    // }
 
     bot.market = async (ContainerName) => {
         DP = containerPrice[ContainerName]
@@ -119,7 +119,7 @@ module.exports.run = async (bot,message,args) => {
     };
 
 
-    cost = await bot.market(ContainerName)
+    cost = await containerPrice[ContainerName]
     if(!cost)  return message.channel.send(`\`❗️\`**Please Mention a Container Name**\`❗️\`\n\`Wolves | Lions | Bears \`\n\`❗️\`**Usage :** \`${prefix}buy <container-name>\`\n\`❗️\`**Example :** \`${prefix}buy Wolves\``);
     Q = 'Please select an option from below :\n====================================\n'
     var total = []
@@ -157,11 +157,11 @@ module.exports.run = async (bot,message,args) => {
         await db.subtract(`MTC_${buyUserID}`,total[opt],{target: `.crystals`})
         await db.add(`NTC_${buyUserID}_containers_${ContainerName[0].toUpperCase()}`,P[opt - 1]);
         await db.add(`NTC_BOT_containers_${ContainerName[0].toUpperCase()}`,P[opt - 1]);
-        message.channel.send(`\`✔️\`**Transaction has been Successful**\`✔️\`\nYou have brought **__${P[opt - 1]} ${ContainerName[0].toUpperCase()}__** containers for **__${CrystalsFormat}__** crystals`)
+        message.channel.send(`\✔️\**Transaction has been Successful**\✔️\nYou have brought **__${P[opt - 1]} ${ContainerName[0].toUpperCase()}__** containers for **__${CrystalsFormat}__** crystals`)
     }
     else
     {
-        return message.channel.send(`\`❌\`**Transaction has been Canceled**\`❌\``)
+        return message.channel.send(`\❌**Transaction has been Canceled**\❌`)
     }
 
     function Discount(total,percentage) {

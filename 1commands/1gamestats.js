@@ -155,9 +155,9 @@ module.exports.run = async (bot,message,args) => {
 **Bears** : *${TCB}*
 **Total Containers** : *${TotalContainers}*`,true)
         .addField('__Shop Prices__',`
-**Wolves** : *${costW}*
-**Lions** : *${costL}*
-**Bears** : *${costB}*`,true)
+**Wolves** : *${containerPrice['WOLVES']}*
+**Lions** : *${containerPrice['WOLVES']}*
+**Bears** : *${containerPrice['WOLVES']}*`,true)
         .addField('__Paints__',`
 **Common** : *${CT}*
 **Rare** : *${RT}*

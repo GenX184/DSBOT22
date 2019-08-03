@@ -55,12 +55,12 @@ module.exports.run = async (bot,message,args) => {
     db.add(`NTC_BOT_containers_LIONS`,5);
     db.add(`NTC_BOT_containers_BEARS`,5);
     console.log(`${userName} Profile Created`)
-    return message.channel.send(`\`✔️\`**${userName} , Your Profile has been created**\`✔️\``)
+    return message.channel.send(`\✔️**${userName} , Your Profile has been created**\✔️`)
     }
     else
       
     {
-        return message.channel.send(`\`❌\`**${userName} , Your Profile already exist **\`❌\``)
+        return message.channel.send(`\❌**${userName} , Your Profile already exist **\❌`)
     }
   
 }

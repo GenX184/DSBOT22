@@ -27,7 +27,7 @@ module.exports.run = async (bot,message,args) => {
     messageArray = message.content.split(' ')
     var PaintName = messageArray[1];
     var amount = messageArray[2]
-    if(!PaintName) return message.channel.send(`\\❗️**Please Mention a Paint Name**\n\\❗️**Usage #1 :** \`${prefix}Nsell <paint-name> <amount>\`\n\\❗️**Example :** \`${prefix}sell first-love 1\`\n\n\\❗️**Usage #2 :** \`${prefix}sell <grade-name> \`\n\\❗️**Example :** \`${prefix}sell common\`\n*<grade-name> :* \`common | rare | epic | legendary | artifact\``);
+    if(!PaintName) return message.channel.send(`\\❗️**Please Mention a Paint Name**\n\\❗️**Usage #1 :** \`${prefix}sell <paint-name> <amount>\`\n\\❗️**Example :** \`${prefix}sell first-love 1\`\n\n\\❗️**Usage #2 :** \`${prefix}sell <grade-name> \`\n\\❗️**Example :** \`${prefix}sell common\`\n*<grade-name> :* \`common | rare | epic | legendary | artifact\``);
     GPaintName = PaintName.toLowerCase()
  
     if(GPaintName === 'common' || GPaintName === 'rare' || GPaintName === 'epic' || GPaintName === 'legendary' || GPaintName === 'artifact' || GPaintName === 'warmedal')
