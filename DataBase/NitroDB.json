@@ -1,0 +1,38 @@
+{
+  "STAR1": {
+    "Value": "1",
+    "ID": "STAR1",
+    "Name": "Holiday",
+    "URL": "https://s.eu.tankionline.com/556/42713/122/201/26710562715630/image.webp"
+  },
+  "STAR2": {
+    "Value": "3",
+    "ID": "STAR2",
+    "Name": "Holiday",
+    "URL": "https://s.eu.tankionline.com/556/42713/301/165/26710562773364/image.webp"
+  },
+  "STAR3": {
+    "Value": "5",
+    "ID": "STAR3",
+    "Name": "Holiday",
+    "URL": "https://s.eu.tankionline.com/556/42714/23/155/26710563032264/image.webp"
+  },
+  "STAR4": {
+    "Value": "7",
+    "ID": "STAR4",
+    "Name": "Holiday",
+    "URL": "https://s.eu.tankionline.com/556/42715/304/210/26710563365115/image.webp"
+  },
+  "STAR5": {
+    "Value": "8",
+    "ID": "STAR5",
+    "Name": "Holiday",
+    "URL": "https://s.eu.tankionline.com/556/42715/377/10/26710563422750/image.webp"
+  },
+  "STAR6": {
+    "Value": "9",
+    "ID": "STAR6",
+    "Name": "Holiday",
+    "URL": "https://s.eu.tankionline.com/556/42716/63/222/26710563452467/image.webp"
+  }
+}

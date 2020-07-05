@@ -1,29 +1,37 @@
 {
-  "name": "tankicrates",
-  "version": "1.0.0",
-  "description": "",
+  "name": "hello-express",
+  "version": "2.0.0",
+  "description": "TankiCrates Version 2.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "dependencies": {
+    "dblapi.js": "^2.3.0",
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "fs-nextra": "^0.5.1",
+    "match-sorter": "^4.1.0",
+    "moment": "^2.26.0",
+    "ms": "^2.1.2",
+    "nodemon": "^2.0.4",
+    "number-formatter": "^1.2.0",
+    "path": "^0.12.7",
+    "quick.db": "^6.3.1",
+    "superagent": "^5.2.1",
+    "xmlhttprequest": "^1.8.0"
+  },
   "engines": {
     "node": "8.4.0"
   },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
   "keywords": [
     "tankicrates"
   ],
-  "author": "MiMs",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.3.2",
-    "express": "^4.16.3",
-    "firebase": "^5.3.0",
-    "match-sorter": "^2.2.3",
-    "ms": "^2.1.1",
-    "nodemon": "^1.18.3",
-    "number-formatter": "^1.2.0",
-    "quick.db": "^6.3.2",
-    "superagent": "^3.8.3"
-  }
+  "devDependencies": {},
+  "author": ""
 }

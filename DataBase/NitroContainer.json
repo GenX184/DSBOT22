@@ -1,0 +1,37 @@
+{
+  "A" : {
+    "19CRY60" : true,
+    "STAR6" : true
+  },
+  "C" : {
+    "19CRY10" : true,
+    "19SUP10" : true,
+    "STAR1" : true,
+    "19CRY11" : true
+  },
+  "E" : {
+    "19CRY40" : true,
+    "19SUP40" : true,
+    "STAR4" : true,
+    "19CRY41" : true
+  },
+  "L" : {
+    "19CRY50" : true,
+    "STAR5" : true
+  },
+  "R" : {
+    "19CRY30" : true,
+    "19SUP30" : true,
+    "STAR3" : true,
+    "19CRY31" : true
+  },
+  "U" : {
+    "19CRY20" : true,
+    "19SUP20" : true,
+    "STAR2" : true,
+    "19CRY21" : true,
+    "19CRY22" : true,
+    "19CRY23" : true,
+    "19CRY24" : true
+  }
+}
